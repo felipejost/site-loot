@@ -17,4 +17,7 @@ label, span { color: $secondary; }
 
 .sidebar a:hover, .sidebar a:active { color: $secondary; }
 
-a { color: $terciary; }
+a { 
+  color: $terciary; 
+  text-decoration: none;
+}
