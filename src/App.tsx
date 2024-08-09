@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import MainEvent from './main-event/MainEvent'
 import Navbar from './navbar/Navbar';
 

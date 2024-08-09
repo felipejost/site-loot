@@ -1,4 +1,4 @@
-import './MainEvent.css';
+import './MainEvent.scss';
 
 const MainEvent = () => {
   return (
