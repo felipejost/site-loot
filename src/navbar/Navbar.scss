@@ -67,10 +67,6 @@ li {
   transition: color $transition;
 }
 
-.sidebar a:hover, a:active {
-  color: $cream;
-}
-
 .sidebar .btn-close {
   position: absolute;
   top: 0;

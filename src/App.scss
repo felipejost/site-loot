@@ -1,2 +1,20 @@
 @import './variables';
 
+/* Firefox */
+::-moz-selection { 
+  color: $white;
+  background: $terciary;
+}
+
+::selection {
+  color: $white;
+  background: $terciary;
+}
+
+h1, h2, h3, h4, h5 { color: $primary; }
+
+label, span { color: $secondary; }
+
+.sidebar a:hover, .sidebar a:active { color: $secondary; }
+
+a { color: $terciary; }

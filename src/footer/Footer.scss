@@ -1,0 +1,21 @@
+@import './../variables';
+
+footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer {
+  background-color: $silver;
+  font-size: 0.75em;
+  padding: 0.8rem;
+}
+
+svg#instagram {
+  fill: $secondary;
+  transition: fill 200ms linear;
+  margin: 1rem;
+}
