@@ -25,10 +25,11 @@ const collapse = (isClosing: boolean) => {
 }
 
 const links = [
-  { uri: '', title: 'Início' },
-  { uri: 'events', title: 'Eventos' },
-  { uri: 'contact', title: 'Contato' },
-  { uri: 'about', title: 'Quem somos?' },
+      {uri: '', title: ''}
+  // { uri: '', title: 'Início' },
+  // { uri: 'events', title: 'Eventos' },
+  // { uri: 'contact', title: 'Contato' },
+  // { uri: 'about', title: 'Quem somos?' },
 ];
 
 const onScroll = () => {
