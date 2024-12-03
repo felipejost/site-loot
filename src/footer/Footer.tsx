@@ -1,6 +1,6 @@
 import './Footer.scss';
 
-const openInstagram = () => window.open('https://www.instagram.com/lootbyaslan/reels/', '_blank')!.focus();
+const openInstagram = () => window.open('https://www.instagram.com/looteventos/', '_blank')!.focus();
 
 const Footer = () => {
   return (
