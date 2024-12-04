@@ -29,6 +29,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap; /* Permite quebra de linha em telas menores */
 }
 
 .email-input {
@@ -37,6 +38,8 @@
   border: none;
   outline: none;
   width: 250px;
+  max-width: 90%; /* Ajusta largura no mobile */
+  font-size: 1rem;
 }
 
 .email-button {
@@ -47,8 +50,48 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-size: 1rem;
 }
 
 .email-button:hover {
   background-color: #005fcc;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .coming-soon-content h1 {
+    font-size: 2.5rem; /* Reduz o tamanho da fonte no mobile */
+  }
+
+  .coming-soon-content p {
+    font-size: 1rem; /* Reduz o texto descritivo */
+  }
+
+  .email-input {
+    width: 100%; /* Preenche a largura no mobile */
+    max-width: 100%;
+  }
+
+  .email-button {
+    width: 100%; /* Botão ocupa a largura completa */
+    padding: 10px;
+  }
+
+  .email-form {
+    gap: 5px; /* Reduz o espaçamento entre os elementos */
+  }
+}
+
+@media (max-width: 480px) {
+  .coming-soon-content h1 {
+    font-size: 2rem; /* Reduz ainda mais para telas muito pequenas */
+  }
+
+  .coming-soon-content p {
+    font-size: 0.9rem; /* Texto menor em telas pequenas */
+  }
+
+  .email-button {
+    font-size: 0.9rem; /* Ajusta o tamanho do botão */
+  }
 }
